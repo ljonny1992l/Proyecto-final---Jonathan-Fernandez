@@ -1,0 +1,157 @@
+/*estilos cursos version movile*/
+
+@import "../utilidades/variables";
+
+
+.img-titulo3 {
+
+    width: ancho;
+    height: 300px;
+}
+.section-cursos {
+
+    display: flex;
+   
+}
+
+section img {
+
+    width: 175px;
+    border: solid black 2px;
+   
+}
+.programa-cursos{
+    width: 90%;
+    height: 90%;
+    }
+
+    .li-cursos{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+    }
+
+    .titulo-curso{
+        display: flex;
+        justify-content: center;
+        margin: 50px; 
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: 768px){
+        .img-titulo3 {
+
+            width: ancho;
+            height: 300px;
+        }
+        .section-cursos {
+        
+            display: flex;
+           
+        }
+        
+        section img {
+        
+            width: 300px;
+            border: solid black 2px;
+           
+        }
+        .programa-cursos{
+            width: 90%;
+            height: 90%;
+            }
+        
+            .li-cursos{
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+        
+            }
+        
+            .titulo-curso{
+                display: flex;
+                justify-content: center;
+                margin: 50px; 
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+
+         /*estilos "cursos" para escritorio*/
+
+    .img-titulo3 {
+
+        width: ancho;
+        height: 750px;
+    }
+
+    .main-cursos {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contenedor-curso {
+        width: ancho;
+        background-color: darkgoldenrod;
+        margin: 5px;
+        border: solid black 2px;
+
+    }
+
+    .titulo-curso {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        font-size: 30px;
+
+    }
+
+
+    .section-cursos {
+
+        display: flex;
+        width: ancho;
+        height: 700px;
+    }
+
+    section img {
+
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+
+    section img:hover {
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%)
+    }
+
+    .programa-cursos{
+    width: 90%;
+    height: 90%;
+    }
+
+    .li-cursos{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+    }
+
+    .titulo-curso{
+
+        font-size: 20px;
+    }
+}
+    

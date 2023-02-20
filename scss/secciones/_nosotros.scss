@@ -1,0 +1,76 @@
+/*estilos nosotros movile */
+
+@import "../utilidades/variables";
+
+.main-nos {
+   
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+
+
+.imagen-nos {
+
+    width: 65%;
+    height: 35%;
+    margin: 3rem;
+    border: solid black 2px;
+}
+
+@media screen and (min-width: 768px){
+
+    .main-nos {
+   
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        text-align: center;
+    }
+    
+    
+    
+    .imagen-nos {
+        
+        width: 65%;
+        height: 35%;
+        margin: 3rem;
+        border: solid black 2px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+     /*estilos "nosotros" para escritorio*/
+
+     .main-nos {
+        width: ancho;
+        height: auto;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 1rem;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+
+
+    .imagen-nos {
+
+        width: 600px;
+        height: 500px;
+        border: solid black 2px;
+        margin-left: 20px;
+    }
+}

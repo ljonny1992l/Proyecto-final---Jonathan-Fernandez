@@ -1,0 +1,80 @@
+/*estilos index version mobile aplicando flex*/
+
+@import "../utilidades/variables";
+
+.main-inicio {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+
+
+.img-main {
+
+    width: 65%;
+    height: 35%;
+    margin: 3rem;
+    border: solid black 2px;
+}
+
+/*version index tablet*/
+
+@media screen and (min-width: 768px){
+    .main-inicio {
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        text-align: center;
+    }
+    
+    
+    
+    .img-main {
+    
+        width: 65%;
+        height: 35%;
+        margin: 3rem;
+        border: solid black 2px;
+    }
+}
+
+/*version index desktop*/
+
+@media screen and (min-width: 1024px) {
+    
+
+    .main-inicio {
+        width: 100%;
+        height: auto;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 1rem;
+        align-items: center;
+
+
+    }
+
+    .img-main {
+
+        width: 600px;
+        height: 500px;
+    }
+
+    .parrafo {
+        margin-bottom: 50px;
+        margin-right: 50px;
+
+    }
+}

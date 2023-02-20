@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+@import "utilidades/variables";
+/*inicio*/
+
+
+
+/*se ultiliza overflow-x para completar la pantalla a su totalidad*/
+.body {
+    overflow-x: hidden;
+    background-image:$color-body;
+}
+
+.img-titulo2 {
+
+    width: ancho;
+    height: 300px;
+}
+
+.img-titulo {
+
+    width: ancho;
+    height: 50%;
+}
+
+/*estilo menu*/
+
+.div-menu {
+
+    background-color: darkgoldenrod;
+    font-size: 25px;
+}
+
+
+/*pie de pagina*/
+
+.footer {
+
+    background-color: darkgoldenrod;
+
+    padding: 5px;
+
+    margin-top: 1rem;
+
+}
+
+.titulo-footer {
+
+    text-align: center;
+
+    color: darkslategray;
+}
+
+.facebook {
+
+    height: 3rem;
+
+    width: 3rem;
+
+    float: left;
+    margin-left: 10px;
+}
+
+.instagram {
+
+    height: 3rem;
+
+    width: 3rem;
+
+    margin-left: 1rem;
+
+}
+
+@media screen and (min-width: 768px){
+
+    .img-titulo2 {
+
+        width: ancho;
+        height: 600px;
+    }
+    .img-titulo {
+
+        width: ancho;
+        height: 50%;
+    }
+
+    .div-menu {
+
+        background-color: darkgoldenrod;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .img-titulo2 {
+
+        width: ancho;
+        height: 750px;
+    }
+    .img-titulo {
+
+        width: ancho;
+        height: 50%;
+    }
+
+    .menu {
+
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+
+
+    }
+
+    .collapse {
+        font-weight: bolder !important;
+        color: aliceblue;
+    }
+
+    .nav-item:hover {
+        transform: scale(0.9) !important;
+        font-weight: lighter !important;
+    }
+}
+
+@import "secciones/index";
+@import "secciones/nosotros";
+@import "secciones/cursos";
+@import "secciones/ventas";
+@import "secciones/contacto";

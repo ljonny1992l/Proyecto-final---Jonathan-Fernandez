@@ -1,0 +1,148 @@
+/*estilos ventas version movile*/
+
+@import "../utilidades/variables";
+
+.img-titulo2 {
+
+    width: ancho;
+    height: 300px;
+}
+
+.titulo-cursos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ventas {
+
+   width: ancho;
+   height: ancho;
+}
+
+.conteiner-img{
+    
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+   
+}
+
+.caja{
+       
+    margin: 15px;
+    img{
+        width: 400px;
+        height: 420px;
+        border-radius: 30px;
+    }
+    p{
+        text-align: center;
+         font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.caja{
+   
+    margin: 15px;
+}
+
+/* ventas version tablet*/
+
+@media screen and (min-width: 768px){
+    .img-titulo2{
+
+        width: ancho;
+        height: 750px;
+    }
+    
+    .ventas {
+    
+       width: ancho;
+       height: ancho;
+    }
+    
+    .conteiner-img{
+        
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        
+       
+    }
+    
+    /*.caja img{
+    
+        width: 400px;
+        height: 420px;
+        border-radius: 30px;
+    } */  
+      
+    .caja{
+       
+        margin: 15px;
+        img{
+            width: 400px;
+            height: 420px;
+            border-radius: 30px;
+        }
+        p{
+            text-align: center;
+             font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    
+    }
+
+    /* ventas version desktop*/
+
+    @media screen and (min-width: 1024px) {
+        
+        .img-titulo2{
+
+            width: ancho;
+            height: 750px;
+        }
+    
+        .ventas {
+        
+           width: ancho;
+           height: ancho;
+        }
+    
+        .conteiner-img{
+            
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            
+           
+        }
+    
+        .caja{
+       
+            margin: 15px;
+            img{
+                width: 400px;
+                height: 420px;
+                border-radius: 30px;
+            }
+            p{
+                text-align: center;
+                 font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    
+        .titulo-ventas{
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
