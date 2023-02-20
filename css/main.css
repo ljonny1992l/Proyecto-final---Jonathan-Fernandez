@@ -8,11 +8,11 @@
   background-image: linear-gradient(347deg, whitesmoke 0%, #ffba41 50%, rgba(218, 131, 0, 0.983718) 100%); }
 
 .img-titulo2 {
-  width: ancho;
+  width: 100%;
   height: 300px; }
 
 .img-titulo {
-  width: ancho;
+  width: 100%;
   height: 50%; }
 
 /*estilo menu*/
@@ -43,10 +43,10 @@
 
 @media screen and (min-width: 768px) {
   .img-titulo2 {
-    width: ancho;
+    width: 100%;
     height: 600px; }
   .img-titulo {
-    width: ancho;
+    width: 100%;
     height: 50%; }
   .div-menu {
     background-color: darkgoldenrod;
@@ -54,10 +54,10 @@
 
 @media screen and (min-width: 1024px) {
   .img-titulo2 {
-    width: ancho;
+    width: 100%;
     height: 750px; }
   .img-titulo {
-    width: ancho;
+    width: 100%;
     height: 50%; }
   .menu {
     display: flex;
