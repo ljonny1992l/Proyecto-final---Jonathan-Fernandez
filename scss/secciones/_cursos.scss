@@ -2,10 +2,12 @@
 
 @import "../utilidades/variables";
 
+@import "../utilidades/mixin";
+
 
 .img-titulo3 {
 
-    width: ancho;
+    width: $ancho;
     height: 300px;
 }
 .section-cursos {
@@ -43,7 +45,7 @@ section img {
     @media screen and (min-width: 768px){
         .img-titulo3 {
 
-            width: ancho;
+            width: $ancho;
             height: 300px;
         }
         .section-cursos {
@@ -85,7 +87,7 @@ section img {
 
     .img-titulo3 {
 
-        width: ancho;
+        width: $ancho;
         height: 750px;
     }
 
@@ -97,7 +99,7 @@ section img {
     }
 
     .contenedor-curso {
-        width: ancho;
+        width: $ancho;
         background-color: darkgoldenrod;
         margin: 5px;
         border: solid black 2px;
@@ -116,7 +118,7 @@ section img {
     .section-cursos {
 
         display: flex;
-        width: ancho;
+        width: $ancho;
         height: 700px;
     }
 

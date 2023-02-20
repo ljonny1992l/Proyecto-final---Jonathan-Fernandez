@@ -1,0 +1,148 @@
+
+@import "../utilidades/variables";
+
+@import "../utilidades/mixin";
+
+.main-contacto { 
+    width: auto;
+    height: auto;
+    border: solid black 1px;
+   
+   
+    background-image: linear-gradient(347deg, rgba(245, 245, 245, 1) 0%, rgba(255, 186, 65, 1) 50%, rgba(218, 131, 0, 0.9837184873949579) 100%);
+}
+
+.titulo-contac {
+
+ 
+    color: black;
+    font-weight: bold;
+    -webkit-text-stroke: white 1px;
+    
+
+}
+
+.formulario{
+    height: auto;
+     width: auto;
+    color: antiquewhite;
+    font-weight: bold;
+    -webkit-text-stroke: darkslategray 1px ;
+    
+   
+
+}
+
+
+.contenedor-form{
+     display: flex;
+    
+     
+}
+
+.botones{
+ 
+    margin: 10px;
+    border-radius: 5px;
+    
+    opacity: 1;
+}
+ /*version contacto tablet*/
+ @media screen and (min-width: 768px){
+    .main-contacto { 
+    width: auto;
+    height: auto;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(347deg, rgba(245, 245, 245, 1) 0%, rgba(255, 186, 65, 1) 50%, rgba(218, 131, 0, 0.9837184873949579) 100%);
+}
+
+.titulo-contac {
+
+ 
+    color: black;
+    font-weight: bold;
+    -webkit-text-stroke: white 1px;
+    
+
+}
+
+.formulario{
+    
+    
+    color: antiquewhite;
+    font-weight: bold;
+    -webkit-text-stroke: darkslategray 1px ;
+    
+   
+
+}
+
+
+.contenedor-form{
+     display: flex;
+    
+     
+}
+
+.botones{
+ 
+    margin: 10px;
+    border-radius: 5px;
+    
+    opacity: 1;
+}
+ }
+
+ @media screen and (min-width: 1024px){
+
+     .main-contacto { 
+    width: auto;
+    height: auto;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(347deg, rgba(245, 245, 245, 1) 0%, rgba(255, 186, 65, 1) 50%, rgba(218, 131, 0, 0.9837184873949579) 100%);
+}
+
+.titulo-contac {
+
+ 
+    color: black;
+    font-weight: bold;
+    -webkit-text-stroke: white 1px;
+    
+
+}
+
+.formulario{
+    
+    
+    color: antiquewhite;
+    font-weight: bold;
+    -webkit-text-stroke: darkslategray 1px ;
+    
+   
+
+}
+
+
+.contenedor-form{
+     display: flex;
+    
+     
+}
+
+.botones{
+ 
+    margin: 10px;
+    border-radius: 5px;
+    
+    opacity: 1;
+}
+ }

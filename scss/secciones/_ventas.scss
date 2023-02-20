@@ -2,24 +2,23 @@
 
 @import "../utilidades/variables";
 
+@import "../utilidades/mixin";
+
 .img-titulo2 {
 
-    width: ancho;
+    width: $ancho;
     height: 300px;
 }
 
 .titulo-cursos{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  @include flex;
 }
 
 .ventas {
 
-   width: ancho;
-   height: ancho;
+   width: $ancho;
+   height: $ancho;
 }
 
 .conteiner-img{
@@ -56,14 +55,14 @@
 @media screen and (min-width: 768px){
     .img-titulo2{
 
-        width: ancho;
+        width: $ancho;
         height: 750px;
     }
     
     .ventas {
     
-       width: ancho;
-       height: ancho;
+       width: $ancho;
+       height: $ancho;
     }
     
     .conteiner-img{
@@ -105,14 +104,14 @@
         
         .img-titulo2{
 
-            width: ancho;
+            width: $ancho;
             height: 750px;
         }
     
         .ventas {
         
-           width: ancho;
-           height: ancho;
+           width: $ancho;
+           height: $ancho;
         }
     
         .conteiner-img{

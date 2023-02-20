@@ -142,7 +142,7 @@
 @media screen and (min-width: 1024px) {
   /*estilos "nosotros" para escritorio*/
   .main-nos {
-    width: ancho;
+    width: 100%;
     height: auto;
     margin: 1rem;
     display: grid;
@@ -160,7 +160,7 @@
 
 /*estilos cursos version movile*/
 .img-titulo3 {
-  width: ancho;
+  width: 100%;
   height: 300px; }
 
 .section-cursos {
@@ -188,7 +188,7 @@ section img {
 
 @media screen and (min-width: 768px) {
   .img-titulo3 {
-    width: ancho;
+    width: 100%;
     height: 300px; }
   .section-cursos {
     display: flex; }
@@ -212,14 +212,14 @@ section img {
 @media screen and (min-width: 1024px) {
   /*estilos "cursos" para escritorio*/
   .img-titulo3 {
-    width: ancho;
+    width: 100%;
     height: 750px; }
   .main-cursos {
     display: flex;
     align-items: center;
     flex-direction: column; }
   .contenedor-curso {
-    width: ancho;
+    width: 100%;
     background-color: darkgoldenrod;
     margin: 5px;
     border: solid black 2px; }
@@ -230,7 +230,7 @@ section img {
     font-size: 30px; }
   .section-cursos {
     display: flex;
-    width: ancho;
+    width: 100%;
     height: 700px; }
   section img {
     width: 0px;
@@ -256,18 +256,18 @@ section img {
 
 /*estilos ventas version movile*/
 .img-titulo2 {
-  width: ancho;
+  width: 100%;
   height: 300px; }
 
 .titulo-cursos {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   text-align: center; }
 
 .ventas {
-  width: ancho;
-  height: ancho; }
+  width: 100%;
+  height: 100%; }
 
 .conteiner-img {
   display: flex;
@@ -291,11 +291,11 @@ section img {
 /* ventas version tablet*/
 @media screen and (min-width: 768px) {
   .img-titulo2 {
-    width: ancho;
+    width: 100%;
     height: 750px; }
   .ventas {
-    width: ancho;
-    height: ancho; }
+    width: 100%;
+    height: 100%; }
   .conteiner-img {
     display: flex;
     flex-wrap: wrap;
@@ -320,11 +320,11 @@ section img {
 /* ventas version desktop*/
 @media screen and (min-width: 1024px) {
   .img-titulo2 {
-    width: ancho;
+    width: 100%;
     height: 750px; }
   .ventas {
-    width: ancho;
-    height: ancho; }
+    width: 100%;
+    height: 100%; }
   .conteiner-img {
     display: flex;
     flex-wrap: wrap;
@@ -343,3 +343,80 @@ section img {
     display: flex;
     justify-content: center;
     align-items: center; } }
+
+.main-contacto {
+  width: auto;
+  height: auto;
+  border: solid black 1px;
+  background-image: linear-gradient(347deg, whitesmoke 0%, #ffba41 50%, rgba(218, 131, 0, 0.983718) 100%); }
+
+.titulo-contac {
+  color: black;
+  font-weight: bold;
+  -webkit-text-stroke: white 1px; }
+
+.formulario {
+  height: auto;
+  width: auto;
+  color: antiquewhite;
+  font-weight: bold;
+  -webkit-text-stroke: darkslategray 1px; }
+
+.contenedor-form {
+  display: flex; }
+
+.botones {
+  margin: 10px;
+  border-radius: 5px;
+  opacity: 1; }
+
+/*version contacto tablet*/
+@media screen and (min-width: 768px) {
+  .main-contacto {
+    width: auto;
+    height: auto;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(347deg, whitesmoke 0%, #ffba41 50%, rgba(218, 131, 0, 0.983718) 100%); }
+  .titulo-contac {
+    color: black;
+    font-weight: bold;
+    -webkit-text-stroke: white 1px; }
+  .formulario {
+    color: antiquewhite;
+    font-weight: bold;
+    -webkit-text-stroke: darkslategray 1px; }
+  .contenedor-form {
+    display: flex; }
+  .botones {
+    margin: 10px;
+    border-radius: 5px;
+    opacity: 1; } }
+
+@media screen and (min-width: 1024px) {
+  .main-contacto {
+    width: auto;
+    height: auto;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(347deg, whitesmoke 0%, #ffba41 50%, rgba(218, 131, 0, 0.983718) 100%); }
+  .titulo-contac {
+    color: black;
+    font-weight: bold;
+    -webkit-text-stroke: white 1px; }
+  .formulario {
+    color: antiquewhite;
+    font-weight: bold;
+    -webkit-text-stroke: darkslategray 1px; }
+  .contenedor-form {
+    display: flex; }
+  .botones {
+    margin: 10px;
+    border-radius: 5px;
+    opacity: 1; } }

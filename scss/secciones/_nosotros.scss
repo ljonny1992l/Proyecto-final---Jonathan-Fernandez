@@ -1,6 +1,7 @@
 /*estilos nosotros movile */
 
 @import "../utilidades/variables";
+@import "../utilidades/mixin";
 
 .main-nos {
    
@@ -52,7 +53,7 @@
      /*estilos "nosotros" para escritorio*/
 
      .main-nos {
-        width: ancho;
+        width: $ancho;
         height: auto;
         margin: 1rem;
         display: grid;
