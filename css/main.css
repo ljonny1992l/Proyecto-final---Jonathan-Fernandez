@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box; }
 
+.footer {
+  background-color: darkgoldenrod;
+  padding: 5px;
+  margin-top: 1rem; }
+
 /*inicio*/
 /*se ultiliza overflow-x para completar la pantalla la totalidaddddd*/
 .body {
@@ -21,11 +26,6 @@
   font-size: 25px; }
 
 /*pie de pagina*/
-.footer {
-  background-color: darkgoldenrod;
-  padding: 5px;
-  margin-top: 1rem; }
-
 .titulo-footer {
   text-align: center;
   color: darkslategray; }
@@ -347,7 +347,6 @@ section img {
 .main-contacto {
   width: auto;
   height: auto;
-  border: solid black 1px;
   background-image: linear-gradient(347deg, whitesmoke 0%, #ffba41 50%, rgba(218, 131, 0, 0.983718) 100%); }
 
 .titulo-contac {
@@ -379,6 +378,7 @@ section img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
     flex-direction: column;
     background-image: linear-gradient(347deg, whitesmoke 0%, #ffba41 50%, rgba(218, 131, 0, 0.983718) 100%); }
   .titulo-contac {
@@ -405,6 +405,7 @@ section img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 100px;
     background-image: linear-gradient(347deg, whitesmoke 0%, #ffba41 50%, rgba(218, 131, 0, 0.983718) 100%); }
   .titulo-contac {
     color: black;
