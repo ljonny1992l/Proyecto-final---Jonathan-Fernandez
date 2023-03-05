@@ -12,45 +12,51 @@
     height: 300px;
 }
 
-.titulo-cursos{
+.titulo-ventas{
 
   @include flex;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.main-ventas {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    margin: 1px;
+
+
 }
 
 .ventas {
 
-   width: $ancho;
-   height: $ancho;
+    width: 500px;
+    height: auto;
+    gap: 1rem;
 }
 
-.conteiner-img{
-    
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    
-   
+
+.photo-size {
+
+    width: 400px !important;
+    height: 400px;
+
+    border: solid black 2px;
+
+    margin-bottom: 1rem;
 }
 
-.caja{
-       
-    margin: 15px;
-    img{
-        width: 400px;
-        height: 420px;
-        border-radius: 30px;
-    }
-    p{
-        text-align: center;
-         font-size: 20px;
-        font-weight: bold;
-    }
-}
-
-.caja{
-   
-    margin: 15px;
-}
 
 /* ventas version tablet*/
 
@@ -61,44 +67,43 @@
         height: 750px;
     }
     
+    .main-ventas {
+
+        width: 100%;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+        text-align: center;
+    
+        margin: 1px;
+    
+    
+    }
+    
     .ventas {
     
-       width: $ancho;
-       height: $ancho;
+        width: 500px;
+        height: auto;
+        gap: 1rem;
     }
     
-    .conteiner-img{
-        
-        display: flex;
-        flex-wrap:wrap;
-        justify-content: center;
-        
-       
-    }
     
-    /*.caja img{
+    .photo-size {
     
-        width: 400px;
-        height: 420px;
-        border-radius: 30px;
-    } */  
-      
-    .caja{
-       
-        margin: 15px;
-        img{
-            width: 400px;
-            height: 420px;
-            border-radius: 30px;
-        }
-        p{
-            text-align: center;
-             font-size: 20px;
-            font-weight: bold;
-        }
-    }
+        width: 400px !important;
+        height: 400px;
     
+        border: solid black 2px;
+    
+        margin-bottom: 1rem;
     }
+}
 
     /* ventas version desktop*/
 
@@ -111,39 +116,25 @@
         }
     
         .ventas {
-        
-           width: $ancho;
-           height: $ancho;
-        }
-    
-        .conteiner-img{
-            
-            display: flex;
-            flex-wrap:wrap;
+
+            width: 100%;
+            height: 100%;
+            margin: 1rem;
+            display: grid;
+            grid-template-columns: repeat(3, 500px);
+            grid-template-rows: repeat(2, 500px);
+            gap: 1rem;
             justify-content: center;
-            
-           
+            justify-items: center;
+    
         }
     
-        .caja{
-       
-            margin: 15px;
-            img{
-                width: 400px;
-                height: 420px;
-                border-radius: 30px;
-            }
-            p{
-                text-align: center;
-                 font-size: 20px;
-                font-weight: bold;
-            }
-        }
+        /*utilice !important debido a q una de las imagenes no se me acoplaba al contenedor*/
     
-        .titulo-ventas{
-    
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .photo-size {
+            border: solid black 5px;
+            width: 399px !important;
+            height: 399px;
+            margin: 100px;
         }
     }
