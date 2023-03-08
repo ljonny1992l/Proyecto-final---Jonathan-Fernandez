@@ -19,11 +19,11 @@
 
 section img {
 
-    width: 175px;
-    border: solid black 2px;
+   display: none;
    
 }
 .programa-cursos{
+    text-align: center;
     width: 90%;
     height: 90%;
     }
@@ -38,9 +38,10 @@ section img {
 
     .titulo-curso{
         display: flex;
-        justify-content: center;
+        text-align: center;
         margin: 50px; 
-        font-size: 20px;
+        font-size: 30px;
+        font-size: bold;
     }
 
     @media screen and (min-width: 768px){
@@ -56,12 +57,15 @@ section img {
         }
         
         section img {
-        
-            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:35%;
             border: solid black 2px;
            
         }
         .programa-cursos{
+            text-align: center;
             width: 90%;
             height: 90%;
             }

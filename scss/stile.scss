@@ -1,4 +1,6 @@
-* {
+* { 
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 @import "utilidades/variables";
@@ -12,6 +14,8 @@
 .body {
     overflow-x: hidden;
     background-image:$color-body;
+    width: 100%;
+    height: 915px;
 }
 
 .img-titulo2 {
@@ -43,31 +47,27 @@
 }
 
 .titulo-footer {
-
+    display: flex;
+    justify-content: center;
     text-align: center;
-
+    font-size: bold;
     color: darkslategray;
+}
+
+.redes-sociales{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 10px;
 }
 
 .facebook {
 
-    height: 3rem;
-
-    width: 3rem;
-
-    float: left;
-    margin-left: 10px;
-}
-
-.instagram {
-
-    height: 3rem;
-
-    width: 3rem;
-
-    margin-left: 1rem;
+width: 70PX;
+height: 70PX;
 
 }
+
 
 @media screen and (min-width: 768px){
 
