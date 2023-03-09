@@ -6,6 +6,14 @@
 
 @import "../utilidades/extend";
 
+
+.body {
+    overflow-x: hidden;
+    background-image:$color-body;
+    width: 100%;
+   
+}
+
 .img-titulo2 {
 
     width: $ancho;
@@ -42,16 +50,15 @@
 
 .ventas {
 
-    width: 500px;
-    height: auto;
+    width: 100%;
     gap: 1rem;
 }
 
 
 .photo-size {
 
-    width: 400px !important;
-    height: 400px;
+    width: 320px;
+    height: 320px;
 
     border: solid black 2px;
 
