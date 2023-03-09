@@ -45,6 +45,7 @@
   width: 70px;
   height: 70px; }
 
+/*fotos del titutlo inicial para las diferentes pages*/
 @media screen and (min-width: 768px) {
   .img-titulo2 {
     width: 100%;
@@ -441,10 +442,9 @@ section img {
     text-align: center;
     width: auto;
     height: auto;
-    margin: 100px; }
+    margin: auto; }
   .espacio {
-    width: auto;
-    height: auto; }
+    width: 100%; }
   .mapa {
     display: none; }
   .boton {

@@ -102,13 +102,13 @@
         text-align: center;
         width: auto;
         height: auto;
-        margin: 100px;
+        margin: auto;
     }
 
     .espacio {
 
-        width: auto;
-        height: auto;
+        width: 100%;
+       
     }
 
     .mapa {
@@ -157,7 +157,6 @@
         display: grid;
         width: auto;
         height: auto;
-
         font-weight: bold;
 
     }
